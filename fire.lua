@@ -1,0 +1,1 @@
+print("Hey lua is fun!")
