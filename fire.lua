@@ -1,15 +1,5 @@
-print("Hey, is lua fun?")
-local response = io.read()
 
-if response == "yes" then
-    print("Yay lua is fun!")
+function math(x, y)
+    print(x + y)
 end
-
-if response == "no" then
-    print("What? lua is fun")
-end
-
-if response ~= "yes" and response ~= "no" then
-    print("Hmm? i'm confused")
-end
-    
+math(1, 3)
